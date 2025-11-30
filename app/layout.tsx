@@ -2,12 +2,15 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Home | Valiance Media',
-  description: 'Welcome to our website.',
+  title: 'Valiance Media - Modern Marketing Website Solutions',
+  description: 'Build high-converting marketing websites with our Next.js boilerplate. Professional templates, SEO optimization, and modern design patterns included.',
   authors: [{ name: 'Valiance Media' }],
+  icons: {
+    icon: 'https://starter.valiancemedia.com/favicon/favicon.ico',
+  },
   openGraph: {
-    title: 'Home | Valiance Media',
-    description: 'Welcome to our website.',
+    title: 'Valiance Media - Modern Marketing Website Solutions',
+    description: 'Build high-converting marketing websites with our Next.js boilerplate. Professional templates, SEO optimization, and modern design patterns included.',
     type: 'website',
   },
 }
